@@ -479,6 +479,8 @@ Combined with its **high training cost** and **marginal gains**, these results c
 
 The combined analysis of results across all vectorization methods (TF-IDF, BoW, Word2Vec, Doc2Vec) and classification models reveals several concrete insights.
 
+---
+
 ####  Overall Performance
 
 The best trade-offs between global accuracy and the ability to correctly identify **poorly rated restaurants** (F1_class_0) were achieved with:
