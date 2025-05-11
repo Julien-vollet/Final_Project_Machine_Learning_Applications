@@ -1,3 +1,5 @@
+!!! there is only the data to clean in the git because the basic one was too heavy !!!
+
 # Final Project – Machine Learning Applications  
 ## Julien VOLLET
 
