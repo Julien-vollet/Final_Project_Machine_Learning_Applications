@@ -539,6 +539,13 @@ The first dashboard provides a **visual exploration of the LDA topic model** bui
 - **Map view**: Restaurants colored by topic using Mapbox.
 - **Keyword display**: The top 10 most representative keywords for each topic are shown interactively.
 
+![Dashboard](rapport/d1p1.png)
+![Dashboard](rapport/d1p2.png)
+![Dashboard](rapport/d1_p3.png)
+
+
+
+
  This dashboard gives users a sense of **semantic clustering** and how different types of restaurants (e.g., romantic, healthy, family-friendly) are geographically distributed across France.
 
 
@@ -551,6 +558,9 @@ The second dashboard compares the **supervised models** trained to predict wheth
 - **ROC Curve**: See the model’s ability to distinguish between good and bad restaurants.
 - **Confusion Matrix**: Understand how many restaurants were correctly classified.
 - **Metric bar chart**: Compare Accuracy, F1-Macro, and AUC side-by-side.
+
+![Dashboard](rapport/d2p1.png)
+![Dashboard](rapport/d2p2.png)
 
  This dashboard is ideal for **model comparison and performance diagnostics**. It shows how different algorithms behave depending on the feature space (TF-IDF, BoW, Word2Vec, etc.).
 
@@ -566,6 +576,10 @@ The final dashboard turns predictions into an **actionable recommender system**.
 - **Top 10 table**: Highlight the highest scoring restaurant recommendations.
 - **Bottom 10 table**: List the least recommended places, helping to interpret errors or low scores.
 
+![Dashboard](rapport/d3p1.png)
+![Dashboard](rapport/d3p2.png)
+![Dashboard](rapport/d3p3.png)
+
  This system mimics a **real-world application** where an end-user might explore top-rated options in a given region, powered by machine learning.
 
 ## Final Conclusion
@@ -578,4 +592,4 @@ In parallel, we used unsupervised techniques such as **Latent Dirichlet Allocati
 
 Finally, to make the results accessible to a non-technical audience, we developed **three interactive dashboards** using Dash. The first allows users to geographically explore LDA topics via a map and city filters. The second serves as a visual classification evaluator, letting users compare models and view confusion matrices, ROC curves, and metric summaries. The third dashboard acts as a recommendation engine, where users can test various model/vectorization pairs and view top or bottom recommended restaurants based on prediction scores.
 
-This project was a valuable opportunity to apply key tools in **natural language processing and supervised learning** in a real-world context. It shows that even a relatively simple dataset — such as keyword-based restaurant profiles — can yield rich analyses, high-performing models, and smart interfaces. More broadly, it highlights the value of combining **technical rigor, interactive visualization**, and **interpretation support** to transform textual data into a **practical decision-making tool**.
+This project was a valuable opportunity to apply key tools in **natural language processing and supervised learning** in a real-world context. It shows that even a relatively simple dataset  such as keyword-based restaurant profiles  can yield rich analyses, high-performing models, and smart interfaces. More broadly, it highlights the value of combining **technical rigor, interactive visualization**, and **interpretation support** to transform textual data into a **practical decision-making tool**.
